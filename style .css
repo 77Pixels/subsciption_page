@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+.subsription {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.subsription__title {
+  width: 50%;
+  font-size: 32px;
+  background-color: hotpink;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.subsription__cards {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.subsciption__card {
+  width: 30%;
+  background-color: #000;
+  color: #fff;
+  padding: 40px 20px;
+  border-radius: 20px;
+}
+.subsciption__card h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.subsciption__card h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.subsciption__card--lists {
+  border: 1px solid #fff;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 20px;
+}
+.subsciption__card--lists li {
+  list-style: none;
+  /* display: flex; */
+}
+.subsciption__card li span {
+  margin-left: 10px;
+  display: inline-block;
+}
+.subsciption__card li i.check {
+  /* width: 5px;
+  height: 5px; */
+  background-color: hotpink;
+  padding: 6px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.subsciption__card li i.xmark {
+  padding: 6px;
+  border: 1px solid hotpink;
+  border-radius: 50%;
+}
+.subsciption__card li span {
+  font-size: 22px;
+}
